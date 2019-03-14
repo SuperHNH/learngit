@@ -19,3 +19,7 @@ $ git status
 $ git diff readme.txt
 
 $ git add readme.txt
+$ git status
+$ git commit -m "add distributed"
+
+$ git push origin master
