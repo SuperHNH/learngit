@@ -54,3 +54,22 @@ remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
+
+
+LC@DESKTOP-2U1EEG5 MINGW64 /e/GitHub/learngit (master)
+$ git reset --hard d99c7
+HEAD is now at d99c770 update file
+
+LC@DESKTOP-2U1EEG5 MINGW64 /e/GitHub/learngit (master)
+$ git reset --hard 3d678fc
+HEAD is now at 3d678fc add line 10
+
+LC@DESKTOP-2U1EEG5 MINGW64 /e/GitHub/learngit (master)
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 789 bytes | 394.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/SuperHNH/learngit.git
+   512ea7d..3d678fc  master -> master
